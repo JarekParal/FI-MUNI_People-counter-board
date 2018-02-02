@@ -19154,6 +19154,7 @@ R2 3 2 {val-val*var/100}
 <part name="LED6" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="220R"/>
+<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="220R"/>
 </parts>
 <sheets>
 <sheet>
@@ -20772,6 +20773,10 @@ Robotarna</text>
 <attribute name="NAME" x="92.202" y="-73.1774" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="100.584" y="-73.152" size="1.778" layer="96"/>
 </instance>
+<instance part="R35" gate="G$1" x="83.82" y="-96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="83.3374" y="-100.838" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="83.312" y="-92.456" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21910,13 +21915,12 @@ Robotarna</text>
 <junction x="33.02" y="-73.66"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="SIGNAL_INPUT" class="0">
 <segment>
 <pinref part="JP13" gate="A" pin="2"/>
 <wire x1="68.58" y1="-106.68" x2="83.82" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-106.68" x2="83.82" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="JP14" gate="A" pin="3"/>
-<wire x1="83.82" y1="-86.36" x2="91.44" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="-101.6" x2="83.82" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -21938,6 +21942,14 @@ Robotarna</text>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="83.82" y1="-73.66" x2="91.44" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="SIGNAL_INPUT_" class="0">
+<segment>
+<pinref part="JP14" gate="A" pin="3"/>
+<wire x1="83.82" y1="-86.36" x2="91.44" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="-91.44" x2="83.82" y2="-86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
