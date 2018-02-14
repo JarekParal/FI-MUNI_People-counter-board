@@ -19166,7 +19166,7 @@ RobotikaBrno.cz
 Robotarna
 CC BY-SA 4.0</text>
 <text x="118.11" y="-142.24" size="2.54" layer="97" font="vector" ratio="14">Jarek Páral</text>
-<text x="148.59" y="-157.48" size="2.54" layer="97" font="vector" ratio="14">v1.0</text>
+<text x="148.59" y="-157.48" size="2.54" layer="97" font="vector" ratio="14">v1.1</text>
 <rectangle x1="511.290040625" y1="-62.8899625" x2="511.503396875" y2="-62.8798" layer="102"/>
 <rectangle x1="511.1478" y1="-62.8798" x2="511.6456375" y2="-62.86964375" layer="102"/>
 <rectangle x1="511.06651875" y1="-62.869640625" x2="511.72691875" y2="-62.859484375" layer="102"/>
