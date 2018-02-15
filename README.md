@@ -6,7 +6,7 @@ Simulation of circuit in Every Circuit:
 - [second simulation (two counters in circuit)](http://everycircuit.com/circuit/5164988449947648)
 
 ## Parts
-- 4x 74LS90 - Decade counter ([datasheet](http://pdf.datasheetcatalog.com/datasheet/motorola/SN54LS92J.pdf))
+- 4x 74LS90 - Decade counter ([datasheet](http://www.ti.com/lit/ds/symlink/sn74ls90.pdf))
 - 4x 74LS47 - BCD to 7 segment decoders ([datasheet](http://www.ti.com/lit/ds/symlink/sn74ls47.pdf))
 - 4x 7 seg. display
 - 1x 74LS08 - Quad and2 ([datasheet](http://www.ti.com/lit/ds/symlink/sn54s08.pdf))
