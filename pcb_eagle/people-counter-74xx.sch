@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19121,7 +19121,7 @@ R2 3 2 {val-val*var/100}
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="RESET"/>
 <part name="JP13" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="/90" package3d_urn="urn:adsk.eagle:package:22459/2" value="DETECTOR"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="200n"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10n"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -21169,10 +21169,6 @@ Robotarna</text>
 <junction x="-7.62" y="-106.68"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="-101.6" x2="-2.54" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="R29" gate="1" pin="1"/>
-<wire x1="5.08" y1="-73.66" x2="-7.62" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="-73.66" x2="-7.62" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-101.6"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="R0(2)"/>
