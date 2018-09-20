@@ -4,7 +4,7 @@
 
 Simple board with LED displays, decade counter, BCD to 7-segment decoder
 
-Simulation of circuit in Every Circuit:
+## Simulation of circuit in Every Circuit:
 - [first simulation (just one counter in circuit)](http://everycircuit.com/circuit/5534090356064256)
 - [second simulation (two counters in circuit)](http://everycircuit.com/circuit/5164988449947648)
 
@@ -21,7 +21,14 @@ Simulation of circuit in Every Circuit:
 ## Parameters
 - power supply: 5 V over pinheads or microUSB connector
 - consumption: approx. 200 mA 
-- size PCB: 70 × 69 mm
+- size of PCB: 70 × 69 mm
+
+## Versions of PCB - bugs and modification
+### v1.0
+- wrong value of the capacitor C2 near IC 555: 10 uF -> 200 nF
+- wrong net to the potentiometer R29 -> delete this net in v1.1 or modify the R29 (cut off one pin on R29)
+### v1.1
+- fix bugs from v1.0
 
 ## Photos 
 
